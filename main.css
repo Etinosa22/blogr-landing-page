@@ -436,12 +436,12 @@ footer{
         width: 85%;
         margin: 50px 30px;
         background-color: hsl(0, 0%, 100%);
-        left: 100%;
+        left: -100%;
         flex-direction: column;
         text-align: center;
         border-radius: 15px;
         transition: .5s;
-        display: none;
+        /* display: none; */
         box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%);
     }
 
@@ -534,7 +534,7 @@ footer{
 
     .cont1.open {
         left: 0;
-        right: 100%;
+        right: 0;
     }
     
     .ban {
