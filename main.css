@@ -408,6 +408,10 @@ footer{
 
 @media (min-width: 375px) and (max-width: 768px){
 
+    .container{
+        overflow-x: hidden;
+    }
+
     .logo img{
         width: 80%;
     }
