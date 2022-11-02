@@ -406,7 +406,7 @@ footer{
     text-decoration: underline;
 }
 
-@media (min-width: 375px) and (max-width: 768px){
+@media (max-width: 768px){
 
     .container{
         overflow-x: hidden;
